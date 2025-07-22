@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="uz">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Raqamlar O'yini</title>
+    <link rel="stylesheet" href="homework.css" />
+  </head>
+  <body>
+    <div class="calculator">
+      <h1>Raqamlar O'yini</h1>
+      <div class="inp">
+        <input type="number" id="son1" placeholder="1-son" />
+        <input type="number" id="son2" placeholder="2-son" />
+      </div>
+
+      <div class="btn">
+        <button onclick="hisobla('+')">Qo'shish</button>
+        <button onclick="hisobla('-')">Ayirish</button>
+        <button onclick="hisobla('*')">Ko'paytirish</button>
+        <button onclick="hisobla('/')">Bo'lish</button>
+      </div>
+
+      <p id="natija"></p>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
